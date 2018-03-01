@@ -10,7 +10,6 @@ module.exports = {
     } = req.cookies;
     
     jwt.verify(token, process.env.SECRET, (err, decoded) => {
-      console.log(decoded.data)
       
       if(err){
           res.status(401).json({error: "Access denied. "});

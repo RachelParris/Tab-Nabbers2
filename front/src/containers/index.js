@@ -5,6 +5,7 @@ import Signin from "./signin/Signin";
 import Join from "./join/Join";
 import ResetPassword, {Confirmation} from "./resetpassword/ResetPassword";
 import NewPassword from "./newpassword/NewPassword";
+import Integrations from "./integrations/Integrations";
 
 
 
@@ -16,5 +17,6 @@ export {
     Join,
     ResetPassword,
     NewPassword,
-    Confirmation
+    Confirmation,
+    Integrations,
 }
